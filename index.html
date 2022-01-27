@@ -24,6 +24,291 @@
     <!-- css style file -->
     <link rel="stylesheet" href="/css/Stylecss.css">
 
+    <style>
+        body {
+            background-color: #222629;
+            color: beige;
+        }
+
+        /* ----- navbar css---- */
+        .navbar {
+            background-color: #222629;
+        }
+
+        .navbar-brand {
+            font-style: oblique;
+
+        }
+
+        .navbar a {
+            color: lightgrey;
+
+        }
+
+
+        .navbar a:hover {
+            background-color: #86c232;
+            color: black;
+        }
+
+
+
+        .sticky {
+            position: fixed;
+            top: 0;
+            width: 100%;
+        }
+
+
+        /* ----- Hero CSS ----- */
+        .hero {
+            /* background-color: #3B8BEB; */
+            margin-top: 30px;
+        }
+
+        .hero .hero-content {
+            float: left;
+            margin-left: 50px;
+        }
+
+        .hero .img-content .img {
+            float: right;
+            margin-right: 20px;
+        }
+
+
+        @media (max-width: 991.98px) {
+            .hero {
+                padding-top: 60px;
+            }
+
+            .hero .hero-content {
+                padding: 0 15px;
+            }
+
+            .hero .hero-text p {
+                font-size: 20px;
+            }
+
+            .hero .hero-text h1 {
+                font-size: 45px;
+            }
+
+            .hero .hero-text h2 {
+                font-size: 25px;
+                height: 25px;
+            }
+
+            .hero .hero-btn .btn {
+                padding: 12px 30px;
+                letter-spacing: 1px;
+            }
+        }
+
+
+        @media (max-width: 767.98px) {
+            .hero {
+                padding-top: 60px;
+                padding-bottom: 60px;
+            }
+
+            .hero,
+            .hero .hero-text,
+            .hero .hero-btn {
+                width: 100%;
+                text-align: center;
+            }
+
+            .hero .hero-text p {
+                font-size: 18px;
+            }
+
+            .hero .hero-text h1 {
+                font-size: 35px;
+            }
+
+            .hero .hero-text h2 {
+                font-size: 22px;
+                height: 22px;
+            }
+
+            .hero .hero-btn .btn {
+                padding: 10px 15px;
+                letter-spacing: 1px;
+            }
+        }
+
+        @media (max-width: 575.98px) {
+            .hero .hero-text p {
+                font-size: 16px;
+            }
+
+            .hero .hero-text h1 {
+                font-size: 30px;
+            }
+
+            .hero .hero-text h2 {
+                font-size: 18px;
+                height: 18px;
+            }
+
+            .hero .hero-btn .btn {
+                padding: 8px 10px;
+                letter-spacing: 0;
+            }
+        }
+
+
+
+        /* ------ skills css ---- */
+
+
+        .skill .col-lg-6 {
+            padding: 0;
+        }
+
+        .skill .section-header {
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+
+        .skill .skill-img {
+            margin: 20px;
+        }
+
+        .skill .skill-img .img {
+            margin: 10px;
+            height: 400px;
+            width: 80%;
+        }
+
+        .skill .about-skill .Skills {
+            margin: 20px;
+        }
+
+
+        /* ----Education Section---- */
+        /* .education{
+    
+} */
+        .education .edu {
+            margin: 30px;
+        }
+
+
+        /* ------project section-----*/
+        /* .project{
+    
+} */
+        .project .pjt {
+            margin: 30px;
+        }
+
+
+        /* ------achivment section---- */
+        /* .achivment{
+    
+} */
+        .achivment .amt {
+            margin: 30px;
+        }
+
+
+
+
+
+        /* ---- Footer Section ---- */
+
+        .footer {
+            margin: 30px;
+        }
+
+        .footer .footer-info {
+            margin: 10px;
+            text-align: center;
+        }
+
+        .footer .footer-info h2 {
+            color: beige;
+        }
+
+        .fa {
+            padding: 20px;
+            font-size: 30px;
+            width: 30px;
+            text-align: center;
+            text-decoration: none;
+            margin: 5px 2px;
+            border-radius: 50%;
+        }
+
+        .fa:hover {
+            color: #86c232;
+        }
+
+        .footer .footer-about {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .footer .code {
+            margin-top: 10px;
+            text-align: center;
+        }
+
+        /* ----- Other ----- */
+
+
+        .btn {
+            background-color: #86c232;
+            color: aliceblue;
+            border: 2px solid transparent;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            /* display: inline-block; */
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 16px;
+        }
+
+        .btn:hover {
+            background-color: transparent;
+            border-color: #86c232;
+        }
+
+        .btn a {
+            color: aliceblue;
+            text-decoration: none;
+        }
+
+        a {
+            color: #6b6e70;
+        }
+
+
+
+        h1 {
+            color: aliceblue;
+        }
+
+        h2 {
+            color: #61892f;
+        }
+
+        h3 {
+            color: aliceblue;
+        }
+
+        b {
+            color: aliceblue;
+        }
+
+        q {
+            font-style: italic;
+        }
+    </style>
+
     <title>My_Portfolio</title>
 
 </head>
@@ -33,8 +318,9 @@
     <div class="navbar navbar-expand-lg  " id="navbar">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html"> AU </a>
-            <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
@@ -60,14 +346,17 @@
                         <div class="hero-text">
                             <h3>I am</h3>
                             <h1>Akshay Upadhayay</h1>
-                            <marquee><h3>Computer Science Student</h3></marquee>
+                            <marquee>
+                                <h3>Computer Science Student</h3>
+                            </marquee>
                             <h2></h2>
                             <button class="btn"><a href="/img/novo-Akshay's Resume.pdf">Resume</a></button>
-                            <button class="btn" style="background-color: brown;"><a href="https://docs.google.com/forms/d/e/1FAIpQLSceEmjW7Etf7jvHPkaBqwlq1jUFodqNCI7m0pXJvqyw7uslmg/viewform?usp=sf_link">Feedback</a></button>
+                            <button class="btn" style="background-color: brown;"><a
+                                    href="https://docs.google.com/forms/d/e/1FAIpQLSceEmjW7Etf7jvHPkaBqwlq1jUFodqNCI7m0pXJvqyw7uslmg/viewform?usp=sf_link">Feedback</a></button>
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="col-sm-12 col-md-6 d-none d-md-block">
                     <div class="img-content">
                         <div class="img">
@@ -98,36 +387,36 @@
                                 <h3>HTML / CSS</h3>
                             </div>
                             <div class="progress">
-                                <div class="progress-bar bg-success w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0"
-                                    aria-valuemax="100"></div>
+                                <div class="progress-bar bg-success w-75" role="progressbar" aria-valuenow="75"
+                                    aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                             <div class="skill-name">
                                 <h3>Bootstrap</h3>
                             </div>
                             <div class="progress">
-                                <div class="progress-bar bg-success w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0"
-                                    aria-valuemax="100"></div>
+                                <div class="progress-bar bg-success w-75" role="progressbar" aria-valuenow="75"
+                                    aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                             <div class="skill-name">
                                 <h3>C++</h3>
                             </div>
                             <div class="progress">
-                                <div class="progress-bar bg-success" role="progressbar" style="width: 60%;" aria-valuenow="60"
-                                    aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="progress-bar bg-success" role="progressbar" style="width: 60%;"
+                                    aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                             <div class="skill-name">
                                 <h3>CORE JAVA</h3>
                             </div>
                             <div class="progress">
-                                <div class="progress-bar bg-success w-50" role="progressbar" aria-valuenow="50" aria-valuemin="0"
-                                    aria-valuemax="100"></div>
+                                <div class="progress-bar bg-success w-50" role="progressbar" aria-valuenow="50"
+                                    aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                             <div class="skill-name">
                                 <h3>OOPS</h3>
                             </div>
                             <div class="progress">
-                                <div class="progress-bar bg-success w-50" role="progressbar" aria-valuenow="50" aria-valuemin="0"
-                                    aria-valuemax="100"></div>
+                                <div class="progress-bar bg-success w-50" role="progressbar" aria-valuenow="50"
+                                    aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </div>
                     </div>
@@ -145,7 +434,7 @@
                     <h2><u>-:-Educational Qualification-:-</u></h2>
                 </div>
             </div>
-            
+
             <div class="row align-item-center">
                 <div class="col-lg-6">
                     <div class="edu">
@@ -160,7 +449,9 @@
                         <br> <br>
                         <button class="btn"><a href="/img/3rd sem.pdf">3<sup>rd</sup> Sem</a></button>
                         &nbsp; &nbsp; <button class="btn"><a href="#">4<sup>th</sup> sem</a></button>
-                        &nbsp; &nbsp; <button class="btn"><a href="#">5<sup><th></th></sup> sem</a></button>
+                        &nbsp; &nbsp; <button class="btn"><a href="#">5<sup>
+                                    <th></th>
+                                </sup> sem</a></button>
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -208,7 +499,8 @@
                     <div class="pjt">
                         <h3>My First Portfolio</h3>
                         <b>Technology:-</b> html, CSS, Bootstrap, Javascript<br>
-                        <p><b>Description: -</b> I made this portfolio when I was Starting learning about Web Development
+                        <p><b>Description: -</b> I made this portfolio when I was Starting learning about Web
+                            Development
                             and it helped me to clear my doubt and made better understanding with these technology.</p>
                         <button class="btn"><a href="/project/p2/Home.html">live Demo</a></button>
                     </div>
@@ -240,7 +532,7 @@
                         <button class="btn"><a href="Zphotos.html">Zonal Comp. Photos</a></button>
                     </div>
                 </div>
-                
+
             </div>
         </div>
     </div>
@@ -257,12 +549,12 @@
                             and have a Optimistic attitude with never-say-die attitude.</p>
                         <marquee>
                             <q cite="https://www.imdb.com/title/tt0062622/quotes/qt0396921" class="qoute">
-                            Perfection in a technology comes with persistent hard-work and patience
+                                Perfection in a technology comes with persistent hard-work and patience
                             </q>
-                        </marquee>                        
+                        </marquee>
                     </div>
                 </div>
-                
+
                 <div class="col-lg-4">
                     <!-- <div class="code">
                         <h2><u>-:-Code-:-</u></h2>
@@ -271,7 +563,7 @@
                         <li><a href="/code/css_code.html">CSS</a></li>
                     </div> -->
                 </div>
-                
+
                 <div class="col-lg-4">
                     <div class="footer-info">
                         <h2>Akshay Upadhayay</h2>
@@ -286,22 +578,22 @@
                     </div>
                 </div>
             </div>
-            
+
             <div class="container copyright">
                 <div class="row align-item-center">
                     <hr>
-                <div class="col-lg-6">
-                    <p>@ All Right Reserved | Designed By <a href=""><i>akshay Upadhayay</i></a></p>
-                </div>
-                <div class="col-lg-6">
-                    <div class="footer-social float-end">
-                        <a href="https://github.com/AkshayUpadhayay0?tab=repositories" class="fa fa-github"></a>
-                        <a href="https://www.linkedin.com/in/akshay-upadhayay-3aa874205" class="fa fa-linkedin"></a>
-                        <a href="https://instagram.com/akshayrajput2184?utm_medium=copy_link"
-                            class="fa fa-instagram"></a>
-                        <a href="" class="fa fa-facebook"></a>
+                    <div class="col-lg-6">
+                        <p>@ All Right Reserved | Designed By <a href=""><i>akshay Upadhayay</i></a></p>
                     </div>
-                </div>
+                    <div class="col-lg-6">
+                        <div class="footer-social float-end">
+                            <a href="https://github.com/AkshayUpadhayay0?tab=repositories" class="fa fa-github"></a>
+                            <a href="https://www.linkedin.com/in/akshay-upadhayay-3aa874205" class="fa fa-linkedin"></a>
+                            <a href="https://instagram.com/akshayrajput2184?utm_medium=copy_link"
+                                class="fa fa-instagram"></a>
+                            <a href="" class="fa fa-facebook"></a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -311,17 +603,17 @@
     <!-- ************************************************** -->
 
     <script>
-        window.onscroll = function() {myFunction()};
-        
+        window.onscroll = function () { myFunction() };
+
         var navbar = document.getElementById("navbar");
         var sticky = navbar.offsetTop;
-        
+
         function myFunction() {
-          if (window.pageYOffset >= sticky) {
-            navbar.classList.add("sticky")
-          } else {
-            navbar.classList.remove("sticky");
-          }
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+            } else {
+                navbar.classList.remove("sticky");
+            }
         }
     </script>
 
