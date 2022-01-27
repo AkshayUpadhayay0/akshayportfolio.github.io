@@ -1,0 +1,180 @@
+header{
+  background-color:#26272b ;
+  color: #fff;
+}
+:root{
+  --dark:black;
+  --white:white;
+  --primary:rgb(42, 225, 231);
+}
+
+.btn{
+  padding: 0.8rem 2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border: 2px solid transparent;
+  outline: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: all .3s ease;
+}
+.btn-primary{
+  background-color: var(--primary);
+  color: rgb(0, 0, 8);
+}
+.btn-primary:hover{
+  background-color: transparent;
+  border-color: var(--primary);
+  color: var(--primary);
+
+}
+
+.btn-secondary{
+  background-color: transparent;
+  color: var(--primary);
+  border-color: var(--primary);
+}
+.btn-secondary:hover{
+  background-color: var(--primary);
+  color:var(--secondary)
+}
+
+.nav-link
+{
+color:#737373;
+}
+
+.nav-link :active,.footer-links :focus,.footer-links :hover
+{
+    color:#3366cc;
+    text-decoration:none; 
+}
+.row{
+    align-items: center;
+}
+
+
+
+.image{
+    align-self: center;
+    height: 400px;
+    width: 400px;
+}
+
+.card{
+  align-self: center;
+    width: 18rem;
+    margin: 20px;
+}
+.card-img-top{
+  align-self: center;
+  width: 18rem;
+  height: 11rem;
+}
+.site-footer
+{
+  background-color:#26272b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+
+.fa{
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+
+
+/* Qualification Image madal css  */
+
+.education a{
+  color: #000;
+  text-decoration: none;
+}
+
+.education .froof .btn{
+  margin: 20px;
+  flex: auto;
+}

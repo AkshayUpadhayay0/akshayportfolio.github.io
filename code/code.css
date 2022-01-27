@@ -1,0 +1,115 @@
+body{
+    background-color: #222629;
+    color: beige;
+}
+code{
+    color: beige;
+    font-weight: 200;
+}
+/* ----- navbar css---- */
+.navbar{
+    background-color: #222629;
+}
+.navbar a{
+    color: #86c232;
+    float: right;
+}
+.navbar-brand{
+    color: black;
+}
+.nav-link{
+    color: black;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+
+/* ---- Footer Section ---- */
+
+.footer{
+    margin: 30px;
+}
+
+.footer .footer-info{
+    margin: 10px;
+    text-align: center;
+}
+
+.footer .footer-info h2{
+    color: beige;
+}
+
+.fa{
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.footer .footer-about{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.footer .code{
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* ----- Other ----- */
+
+
+.btn{
+    background-color: #86c232;
+    color: aliceblue;
+    border: 2px solid transparent;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    /* display: inline-block; */
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+}
+
+.btn:hover{
+    background-color: transparent;
+    border-color: #86c232;
+}
+
+.btn a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+a{
+    color: #6b6e70;
+}
+
+
+
+h1{
+    color: #61892f;
+}
+
+h2{
+    color: #61892f;
+}
+
+h3{
+    color: aliceblue;
+}
+
+b{
+    color: aliceblue;
+}
+
+q{
+    font-style: italic;
+}

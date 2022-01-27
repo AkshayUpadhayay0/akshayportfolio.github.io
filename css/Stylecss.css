@@ -1,0 +1,277 @@
+body{
+    background-color: #222629;
+    color: beige;
+}
+/* ----- navbar css---- */
+.navbar{
+    background-color: #222629;
+}
+.navbar-brand{
+    font-style: oblique;
+    
+}
+.navbar a{
+    color: lightgrey;
+    
+}
+
+
+.navbar a:hover{
+    background-color: #86c232;
+    color: black;
+}
+
+
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+
+/* ----- Hero CSS ----- */
+.hero{
+    /* background-color: #3B8BEB; */
+    margin-top: 30px;
+}
+.hero .hero-content{
+    float: left;
+    margin-left: 50px;
+}
+
+.hero .img-content .img{
+    float: right;
+    margin-right: 20px;
+}
+
+
+@media (max-width: 991.98px) {
+    .hero {
+        padding-top: 60px;
+    }
+    
+    .hero .hero-content {
+        padding: 0 15px;
+    }
+    
+    .hero .hero-text p {
+        font-size: 20px;
+    }
+    
+    .hero .hero-text h1 {
+        font-size: 45px;
+    }
+    
+    .hero .hero-text h2 {
+        font-size: 25px;
+        height: 25px;
+    }
+    
+    .hero .hero-btn .btn {
+        padding: 12px 30px;
+        letter-spacing: 1px;
+    }
+}
+
+
+@media (max-width: 767.98px) {
+    .hero {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    
+    .hero,
+    .hero .hero-text,
+    .hero .hero-btn {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .hero .hero-text p {
+        font-size: 18px;
+    }
+    
+    .hero .hero-text h1 {
+        font-size: 35px;
+    }
+    
+    .hero .hero-text h2 {
+        font-size: 22px;
+        height: 22px;
+    }
+    
+    .hero .hero-btn .btn {
+        padding: 10px 15px;
+        letter-spacing: 1px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .hero .hero-text p {
+        font-size: 16px;
+    }
+    
+    .hero .hero-text h1 {
+        font-size: 30px;
+    }
+    
+    .hero .hero-text h2 {
+        font-size: 18px;
+        height: 18px;
+    }
+    
+    .hero .hero-btn .btn {
+        padding: 8px 10px;
+        letter-spacing: 0;
+    }
+}
+
+
+
+/* ------ skills css ---- */
+
+
+.skill .col-lg-6{
+    padding: 0;
+}
+
+.skill .section-header{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.skill .skill-img{
+    margin: 20px;
+}
+.skill .skill-img .img{
+    margin: 10px;
+    height: 400px;
+    width: 80%;
+}
+
+.skill .about-skill .Skills{
+    margin: 20px;
+}
+
+
+/* ----Education Section---- */
+/* .education{
+    
+} */
+.education .edu{
+    margin: 30px;
+}
+
+
+/* ------project section-----*/
+/* .project{
+    
+} */
+.project .pjt{
+    margin: 30px;
+}
+
+
+/* ------achivment section---- */
+/* .achivment{
+    
+} */
+.achivment .amt{
+    margin: 30px;
+}
+
+
+
+
+
+/* ---- Footer Section ---- */
+
+.footer{
+    margin: 30px;
+}
+
+.footer .footer-info{
+    margin: 10px;
+    text-align: center;
+}
+
+.footer .footer-info h2{
+    color: beige;
+}
+
+.fa{
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.fa:hover{
+    color: #86c232;
+}
+
+.footer .footer-about{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.footer .code{
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* ----- Other ----- */
+
+
+.btn{
+    background-color: #86c232;
+    color: aliceblue;
+    border: 2px solid transparent;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    /* display: inline-block; */
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+}
+
+.btn:hover{
+    background-color: transparent;
+    border-color: #86c232;
+}
+
+.btn a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+a{
+    color: #6b6e70;
+}
+
+
+
+h1{
+    color: aliceblue;
+}
+
+h2{
+    color: #61892f;
+}
+
+h3{
+    color: aliceblue;
+}
+
+b{
+    color: aliceblue;
+}
+
+q{
+    font-style: italic;
+}

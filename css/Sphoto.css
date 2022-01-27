@@ -1,0 +1,160 @@
+body{
+    background-color: #222629;
+    color: beige;
+}
+/* ----- navbar css---- */
+.navbar{
+    background-color: #222629;
+}
+.navbar a{
+    color: #86c232;
+    float: right;
+}
+.navbar-brand{
+    color: black;
+}
+.nav-link{
+    color: black;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+/* ---- photo section ---- */
+.Photo .header-section{
+    text-align: center;
+    text-decoration: none; 
+}
+
+.Photo .header-section h1{
+    color: #86c232;
+}
+.Photo .header-section h3{
+    color: #86c232;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* body {
+    margin: 0;
+    font-family: Arial;
+  }
+   */
+  /* The grid: Four equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+  }
+  
+  /* Style the images inside the grid */
+  .column img {
+    opacity: 0.8; 
+    cursor: pointer; 
+  }
+  
+  .column img:hover {
+    opacity: 1;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* The expanding image container */
+  .container {
+    position: relative;
+    display: none;
+  }
+  
+  /* Closable button inside the expanded image */
+  .closebtn {
+    position: absolute;
+    top: 1px;
+    right: 20px;
+    color: black;
+    font-size: 50px;
+    cursor: pointer;
+  }
+
+/* ---- Footer Section ---- */
+
+.footer{
+    margin: 30px;
+}
+
+.footer .footer-info{
+    margin: 10px;
+    text-align: center;
+}
+
+.footer .footer-info h2{
+    color: beige;
+}
+
+.fa{
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.footer .footer-about{
+    text-align: center;
+}
+
+/* ----- Other ----- */
+
+
+.btn{
+    background-color: #86c232;
+    color: aliceblue;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+}
+.btn a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+a{
+    color: #6b6e70;
+}
+
+
+
+h1{
+    color: aliceblue;
+}
+
+h2{
+    color: #61892f;
+}
+
+h3{
+    color: aliceblue;
+}
+
+b{
+    color: aliceblue;
+}
+
+q{
+    font-style: italic;
+}

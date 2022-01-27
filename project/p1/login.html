@@ -1,0 +1,101 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <!--------------------------------------------#################################-------------------------->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #1A1A1D;;   
+    background-image:linear-gradient(rgba(193, 196, 232, 1),rgba(90, 185, 234, 1)), url('b3.jpg');
+
+        background-size: cover;
+        background-attachment: fixed;
+}
+.box
+{
+    width: 300px;
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    background:#b094e2;
+    border-radius: 20px;
+}
+.box h3
+{
+    color: white;
+    font-weight: 700;
+}
+.box input[type="text"], .box input[type="password"]
+{
+    border:0;
+    background:#191919;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid white;
+    width: 200px;
+    padding: 8px 10px; 
+    color:white;
+    border-radius: 20px;
+    transition: 0.90s;
+    outline: none;
+}
+ .box input[type="text"]:focus, .box input[type="password"]:focus
+{
+    width: 240px; 
+    border-color:khaki;
+}
+.box input[type="submit"]
+{
+     border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid white;
+    padding: 8px 40px; 
+    color: white;
+    border-radius: 20px;
+    transition: 0.90s;
+    outline: none;
+    cursor: pointer;
+}
+.box input[type="submit"]:hover
+{
+    background:#5880E9;
+}
+.backgrund-img
+{
+height:600px;
+background-image:url('backgrund/bg.jpg');
+background-size: cover;
+background-repeat:no repeat;
+background-position:center;
+background-attachment: center;
+}
+</style>
+</head>
+	<body>
+	<div class="backgrund-img">
+
+		 <form class="box"  action="" method="POST">
+        <h3>LOGIN</h3>
+   
+    <input type="text" placeholder="email" required="" name="email">
+    
+    <input type="password" placeholder=" Password" required="" name="pass1">
+    <input type="submit" name="sub" value="Login">
+    </form>
+    </div>
+    
+  
